@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <font>
+        <h2 style="color: blue;"><u>Student Regestration From Using Table in Html </u></h2>
+    </font>
+    <form action="/sever">
+        <table  bgcolor="red">
+            <tr>
+                <td>
+                    <label for="username">username</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Rohan" required>
+                    <font style="color: aliceblue;">(Max 50 Charecteras Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastname">lastname</label>
+                </td>
+                <td><input type="text" name="lastname" id="lastname" placeholder="Pawar" required>
+                    <font style="color: aliceblue;">(Max 50 Charecteras Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">email</label></td>
+                <td><input type="text" name="email" id="email" placeholder="rohankalbhor568gmail.com" required></td>
+            </tr>
+            <tr>
+                <td> <label for="phone">Mobile Number</label> </td>
+                <td><input type="number" name="phone" id="phone" placeholder="9301850651" required>
+                    <font style="color: aliceblue;">(10 digit Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">gender</label></td>
+                <td><input type="radio" name="gender" id="gender" value="Male" >
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="gender" value="Female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="gender" value="Others">
+                    <label for="gender">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date of birth">Date of Birth</label>
+                </td>
+                <td>
+                    <select name="day" id="date of birth">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                    </select>
+                    <select name="monthe" id="date of birth">
+                        <option value="">Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="year" id="date of birth">
+                        <option value="">year</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="40" rows="10" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Document"><font style="color: aliceblue;"><u>Id prof</u></font></label>
+                </td>
+                <td>
+                    <input type="file" name="Document" id="Document">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" name="city" id="city" placeholder="Bhopal" required>
+                    <font style="color: aliceblue;">(Max 50 Charecteras Allowed)</font>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">Pincode</label>
+                </td>
+                <td>
+                    <input type="number" name="pincode" id="pincode" placeholder="480334" required>
+                    <font style="color: aliceblue;">(Max 6 Numbers Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State</label>
+                </td>
+                <td>
+                    <input type="text" name="state" id="state" placeholder="Madhya Pradesh">
+                    <font style="color: aliceblue;">(Max 10 Charecteras Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">Hobbies</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">Cricket</label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">Football</label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">Volyball</label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">Online game</label>
+                    <input type="checkbox" name="hobbies" id="hobbies">
+                    <label for="hobbies">others</label>
+                    <input type="text" name="hobbies" id="hobbies" placeholder="Ex- teaching">
+                    <font style="color: aliceblue;">(Max 6 Charecteras Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Qualification">Qualification</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="Qualification" id="Qualification">
+                    <label for="Qualification">High School Qualification(10th)</label>
+                    <br>
+                    <input type="checkbox" name="Qualification" id="Qualification">
+                    <label for="Qualification">Higher School(12th)</label> <br>
+                    <input type="checkbox" name="Qualification" id="Qualification">
+                    <label for="Qualification">Graduation(Bachelers)</label>
+                    <br>
+                    <input type="checkbox" name="Qualification" id="Qualification">
+                    <label for="Qualification">Post Graduation(Masters)</label>
+                    <br>
+                    <input type="checkbox" name="Qualification" id="Qualification">
+                    <label for="Qualification">Phd</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="courses">Courses Applied For </label>
+                </td>
+                <td>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">B.CA</label><br>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">B.Com</label><br>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">B.Sc</label><br>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">BA</label><br>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">MCA</label><br>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">M.Sc</label><br>
+                    <input type="checkbox" name="Courses" id="Courses">
+                    <label for="courses">MA</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+
+
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
